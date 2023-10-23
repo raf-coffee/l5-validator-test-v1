@@ -1,4 +1,4 @@
-export default class ArraySchema{
+export default class ArraySchema {
   constructor(validators = [(arr) => Array.isArray(arr)]) {
     this.validators = validators;
   }
@@ -8,6 +8,6 @@ export default class ArraySchema{
   }
 
   length(len) {
-    return new ArraySchema([...this.validators, (arr) => arr.length === len])
+    return new ArraySchema([...this.validators, (arr) => arr.length === len]);
   }
 }
