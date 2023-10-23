@@ -1,14 +1,16 @@
-import { NumberSchema } from "./NumberSchema.js";
-import { StringSchema } from "./StringSchema.js";
+import NumberSchema from './NumberSchema.js';
+import StringSchema from './StringSchema.js';
 
 export default class Validator {
-    string() {
-        return new StringSchema();
-    }
+  // eslint-disable-next-line class-methods-use-this
+  string() {
+    return new StringSchema();
+  }
 
-    number() {
-        return new NumberSchema();
-    }
+  // eslint-disable-next-line class-methods-use-this
+  number() {
+    return new NumberSchema();
+  }
 }
 
 // const validator = new Validator();
