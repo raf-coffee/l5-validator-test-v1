@@ -4,7 +4,7 @@
 2. Если доступ закрыт: ssh-keygen затем cat ~/.ssh/id_rsa.pub
 3. Затем вставить ключ в гитхаб и повторить пункт 1.
 
-(MDN JS)[https://github.com/mdn/content/tree/main/files/en-us/web/javascript/reference/global_objects]
+[MDN JS](https://github.com/mdn/content/tree/main/files/en-us/web/javascript/reference/global_objects)
 
 ## Правила и регламент
 
